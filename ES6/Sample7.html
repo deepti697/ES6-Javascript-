@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function sum(...args){
+        let total=0;
+        for(const a of args){
+            total += a;
+        }
+        return total;
+    }
+    var res=sum(1,2,3);
+    console.log(res);
+</script>
+<body>
+    <h2>Rest Parameter</h2>
+</body>
+</html>

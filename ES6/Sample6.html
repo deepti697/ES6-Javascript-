@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function date(d=today()){
+        console.log(d);
+    }
+    function today(){
+        return (new Date()).toLocaleDateString("en-US");
+    }
+
+    date();
+    date("1/2/2025");
+</script>
+<body>
+    <h2>Defaul Parameter</h2>
+</body>
+</html>
